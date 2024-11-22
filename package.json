@@ -1,0 +1,25 @@
+{
+  "name": "apitodolist",
+  "version": "1.0.0",
+  "description": "una api de todo list",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "API",
+    "Node"
+  ],
+  "author": "Branndon Velandia",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
