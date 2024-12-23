@@ -1,9 +1,16 @@
-import { Button } from '../components'
+import { Button, Input } from '../components'
+import './App.css'
 
 
 export const Todo = () => {
-  return <Button label="Agregar"></Button>
+  return (
+    <>
+      <Input />
+      <Button label="Agregar"></Button>
+    </>
+  ) 
 }
+
 
 
 function App() {
